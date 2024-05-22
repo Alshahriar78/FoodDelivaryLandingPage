@@ -1,0 +1,600 @@
+body{
+ margin:50px;
+ padding: 0;
+ 
+  font-family: "Inter", sans-serif;
+  
+    
+}
+
+ 
+
+.Navbar{
+   width: 100%;
+   display: flex;
+  
+   
+}
+
+.Navbar .logo{
+   width: 30%;
+   
+}
+.Navbar .nav{
+   width: 50%;
+}
+.Navbar .nav ul{
+   
+   display: flex;
+}
+.Navbar .nav ul li {
+   display: inline; 
+   justify-content: space-between;
+}
+.Navbar .nav ul li a{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+   text-decoration: none;
+  padding: 0px 30px;
+  color: #191720;
+}
+.Navbar .sign-Up {
+ 
+ padding-top: 15px;
+}
+.Navbar .sign-Up a{
+   justify-content: space-between;
+  text-decoration: none;
+  color: #191720;
+  font-family: Inter;
+  margin:10px;
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+text-align: right;
+
+
+  
+  }
+  .Navbar .sign-Up .sp{
+   background-color:rgb(233, 67, 57) ;
+   border-radius: 36px;
+   color: aliceblue;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+   
+  }
+
+
+
+
+  .foodDelivary{
+   width: 100%;
+   display: flex;
+   margin-top: 100px;
+   margin-bottom: 200px;
+}
+  .foodDelivary .text{
+   margin-top: 20px;
+   width: 45%;
+  
+   margin-right: 109px;
+}
+.foodDelivary .text h1{
+   font-size: 45px;
+}
+.foodDelivary .text p{
+   margin-bottom: 30px;
+}
+  .foodDelivary .text .input input{
+   width: 380px;
+   height: 50px;
+   border-radius: 56px ; 
+   background: #F6F6F6;
+   border: #F6F6F6;
+
+}
+.foodDelivary .text .input button{
+   margin-bottom: 30px;
+   width:134px;
+   height:52px;
+   position: relative;
+   right: 138px;
+   padding: 15px 20px 15px 20px;
+   gap: 8px;
+   border-radius: 56px ;
+   border: #F6F6F6;
+   background: #FF5331;
+
+   
+}
+  .foodDelivary .text .input .ag{
+   display: flex;
+   
+  }
+  .foodDelivary .text .input .apple-app{
+   display: flex;
+   width: 186.85px;
+    height: 68px;
+   top: 99px;
+  
+   border-radius: 10.26px;
+
+  background: #F4F4F4;
+   justify-content: space-between;
+   margin-right: 35px;
+/* padding:0px 0px 0px 10px; */
+
+
+  }
+  .foodDelivary .text .input .apple-app img{
+   width: 31px;
+   height: 38px;
+  padding-left: 15px;
+  margin: 10px 0 0 15px;
+  padding-right: 0px;
+
+
+
+
+  }
+  .foodDelivary .text .input .apple-app .apple-text{
+   width: 113.72px;
+height: 37.11px;
+top: 115.68px;
+left: 55.72px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+
+  }
+
+  .foodDelivary .img{
+   background-color: #F2EBDA;
+   border-radius: 25px;
+  }
+
+
+.welcome{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.welcome h1{
+   font-size: 46px;
+   font-weight: 600;
+   line-height: 58px;
+   color: #191720;
+
+}
+.welcome p{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   color: #191720;
+
+}
+
+.main{
+   width: 100%;
+   margin-bottom: 120px;
+}
+.main .food-details{
+   display: flex;
+   margin-bottom: 50px;
+   
+}
+.main .food-details .foodImg{
+   width: 50%;
+   display: flex;
+   position: relative;
+   left: 120px;
+}
+
+.main .food-details .foodImg .foodcart{
+   
+   text-align: center;
+   width: 130px;
+   height: 220px ;
+   margin-right: 20px;
+   background-color: #FAFAFA;
+   border-radius: 10%;
+}
+
+.main .food-details .text-img{
+   margin-left: 50px;
+   width:538px;
+   height: 232px;
+   width: 50%;
+}
+.main .food-details .text-img img{
+   position: relative;
+   left:250px;
+}
+.main .food-details .text{
+   width: 40%;
+   font-family: "Inter";
+   font-weight: 400;
+   margin-right: 23px;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.main .food-details .foodImg .foodImg-2{
+   display: flex;
+   position: relative;
+   right: 205px;
+}
+
+.main .how-to-order{
+   margin-top: 200px;
+   margin-left: 20px;
+   margin-bottom: 120px;
+}
+.main .how-to-order .text{
+   text-align: center;
+}
+.main .how-to-order .number{
+   display: flex;
+   color: rgb(255, 83, 49);
+
+}
+.main .how-to-order .number h1{
+   display: flex;
+   color: rgb(255, 83, 49);
+   margin-right:293px; 
+
+}
+.main .how-to-order .imagesdiv{
+   display: flex;
+}
+.main .how-to-order .image{
+   position: relative;
+   bottom: 35px;
+   
+   text-align: center;
+   width: 214px;
+   height: 267px ;
+   margin-right: 120px;
+   background-color: #FAFAFA;
+   border-radius: 10%;
+}
+.main .how-to-order .image p{
+   font-family: "Inter";
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 30px;
+   text-align: center;
+}
+.main .client-fidback{
+   text-align: center;
+}
+
+.subscribe{
+   margin-bottom: 0;
+   width: 100%;
+   height: 250px;
+   display:flex;
+   
+   /* text-align: center; */
+   justify-content: space-between;
+   background-color: rgb(255, 239, 236);
+}
+.subscribe .text{
+   padding-bottom: 50px;
+   position: relative;
+   left: 100px;
+   top:60px
+
+
+}
+.subscribe .text h1{
+  
+  font-family: Poppins;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+ 
+  text-align: left;
+
+
+
+   
+}
+.subscribe .text p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+position: relative;
+bottom: 20px;
+
+text-align: left;
+
+}
+.subscribe  .input-2{
+   position: relative;
+   left: 150px;
+   top: 95px;
+}
+.subscribe  .input-2 input{
+   /* padding-top: 30px; */
+   width: 350px;
+   height: 45px;
+   border-radius: 50px ; 
+   background: #FFFF;
+   border:  #FFFF;
+   text-align: left;
+   
+
+}
+.subscribe  .input-2 button{
+   width:85px;
+   height:45px;
+   position: relative;
+   right: 90px;
+   /* padding: 5px 7px  5px 7px  ; */
+   /* gap: 8px; */
+   border-radius: 50px ;
+   border: #F6F6F6;
+   background: #FF5331;
+}
+.footer{
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 770px;
+   color:rgb(135, 133, 133);
+   
+  
+
+}
+
+.footer .flex{
+   width: 100%;
+  display: flex;
+  padding-top: 150px;
+  /* position: relative;
+  top: 200px; */
+}
+.footer .flex  .footer-text{
+   display: flex;
+   width: 60%;
+  
+
+}
+.footer .flex .flex-image {
+   margin-left: 100px;
+   width: 40%;
+}
+.footer .flex .flex-image .footer-image{
+   margin-bottom: 100px;
+}
+.footer .flex  .footer-text .Quicklinks{
+   margin-right: 50px;
+}
+
+.footer .flex  .footer-text .Quicklinks h1{
+   font-family: "Inter";
+   font-size: 17.76px;
+   font-weight: 600;
+   line-height: 26.63px;
+   text-align: left;
+   color: rgb(255, 255, 255);
+   
+}
+
+.footer .flex  .footer-text .Quicklinks ul {
+   list-style-type: none;
+   position: relative;
+   right: 40px;
+}
+.footer .flex  .footer-text .Quicklinks ul li{
+   
+font-family: "Inter";
+font-size: 17.76px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+
+
+}
+.footer .flex2{
+   display: flex;
+   position: relative;
+   left: 100px;
+   top: 135px;
+   
+}
+.footer .flex2 p{
+   
+}
+.footer .flex2 .foot .link ul{
+   display: flex;
+   list-style-type: none;
+   position: relative;
+   left: 500px;
+}
+.footer .flex2 .foot .link ul li a{
+  text-decoration: none;
+  padding-right: 50px;
+  color: #B5B2B2;
+
+}
+.footer .flex  .footer-text .Quicklinks ul li a{
+   text-decoration: none;
+   color:rgb(135, 133, 133)
+}
+
+@media (max-width:600px) {
+   body{
+     margin: 0;
+     padding: 0;
+   }
+   .Navbar{
+      width: 100%;
+      display: block;
+   }
+   .Navbar .nav{
+      width: 50%;
+      
+   }
+   .Navbar .nav ul {
+      text-align: left;
+      display: block;
+      background-color: #FF5331;
+
+   }
+   .foodDelivary{
+      width: 100%;
+      display: block;
+   }
+   .foodDelivary.text{
+      width: 100%;
+      display: block;
+      
+   }
+   .foodDelivary.text h1{
+      width: 100%;
+      text-align: justify;
+         font-size: 25px;
+   }
+   .foodDelivary.text .input input{
+      width: 100%;
+   }
+   .foodDelivary.text .input button{
+      margin-bottom: 30px;
+      width:100px;
+      height:35px;
+      
+      right: 138px;
+      padding: 15px 20px 15px 20px;
+     
+      border-radius: 56px ;
+      border: #F6F6F6;
+      background: #FF5331;
+   }
+      
+      
+   .foodDelivary.text p{
+      font-size: 25px;
+      display: inline-block;
+
+}
+   .foodDelivary .img img{
+           width: 100%;
+           margin-top: 100px;
+   }
+   .welcome{
+       width: 100%;
+   }
+   .main .food-details{
+      display: block;
+      width: 100%
+   }
+   .main .food-details .foodImg{
+      position:static;
+      right: 150px;
+      display:flex ;
+      width: 50%;
+   }
+   .main .food-details .text-img{
+      width: 100%;
+      display: block;
+   }
+   .main .food-details .text-img h2{
+      position:relative;
+      right: 45px;
+   }
+   .main .food-details .text-img .p{
+      position:static;
+      
+   }
+   .main .food-details .foodImg-2{
+      width: 100%;
+      position:relative;
+      left: 0px;
+      
+    
+   }
+   .main .how-to-order .imagesdiv{
+      display: inline-flex;
+   }
+   .main .how-to-order .imagesdiv .image{
+      width: 25%;
+   }
+   .subscribe{
+      width: 100%;
+      display: block;
+   }
+   .subscribe .text h1{
+      position: relative;
+      bottom: 70px;
+      right: 100px;
+      margin: 0px;
+      padding: 0;
+      text-align: left;
+      font-size: 35px;
+   }
+   .subscribe .text p{
+      width: 100%;
+      position: relative;
+      bottom: 70px;
+      right: 100px;
+      margin: 0px;
+      padding: 0;
+      text-align: left;
+      font-size: 18px;
+   }
+   .subscribe .input-2{
+      position:static;
+   }
+   .footer{
+      padding: 0;
+      width: 100%;
+      height: 2000px;
+      background-color: #191720;
+      display: block;
+     
+   }
+   
+   .footer .flex .flex-image .footer-image{
+      display: block;
+      
+     
+   }
+   .footer .flex .flex-image .footer-image-2{
+      display: flex;
+      position: relative;
+      right: 100px;
+   }
+   .footer .flex .footer-text  {
+      display: block;
+      position: relative;
+      right: 200px;
+      top: 400px;
+   }
+   .footer .flex .footer-text #le{
+      position: relative;
+      left: 200px;
+      bottom: 360px;
+   }
+   .footer .flex .footer-text #so{
+      position: relative;
+      /* left: 10px; */
+      bottom: 360px;
+   }
+   .footer .flex .footer-text #li{
+      position: relative;
+      left: 200px;
+      bottom: 720px;
+   }
+   
+}
+
+   
